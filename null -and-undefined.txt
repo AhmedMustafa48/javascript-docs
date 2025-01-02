@@ -1,0 +1,9 @@
+Null And Undefined in JS
+
+
+
+Null : you try to find something , but there is nothing.
+Undefined: value is not avaialbe in available in variable , this is undefined.
+		--> variable default value is undefined in js, on the other language default 					 		 value of variable is garbage value.
+		--> var a; (undefined)
+		--> var a=12; (defined now)

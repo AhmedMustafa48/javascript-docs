@@ -1,3 +1,13 @@
 outerFunction runs and creates a variable message in its scope.
 innerFunction is created inside outerFunction and has access to message.
 
+
+below code of closure
+function parent() {
+  var x = 12;
+  return function () {
+    console.log(x);
+  };
+}
+var ahm = parent();
+ahm();

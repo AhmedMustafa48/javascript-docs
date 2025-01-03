@@ -1,0 +1,12 @@
+
+
+
+below code of closure
+function parent() {
+  var x = 12;
+  return function () {
+    console.log(x);
+  };
+}
+var ahm = parent();
+ahm();

@@ -1,0 +1,6 @@
+rules in which "use strict" works
+
+- variable declaration
+- can't delete the variable
+- can't make same parameters in functions
+

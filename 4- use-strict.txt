@@ -4,3 +4,11 @@ rules in which "use strict" works
 - can't delete the variable
 - can't make same parameters in functions
 
+without "use strict"
+compiler will not give error in console of undeclare variable.   (a = 2;)
+not give the error of irrelevent deletion of variable. (delete a;) => this keyword not delete the variable , it delete the object ... and without use-strict console wll not show the error 
+not give of parameters mistake of function ( e.g. function hello(a,b,b){} )
+
+
+
+you just need to write "use strict" at the top of the file , then you wll get all the errors in console, otherwise you will not see error if occur.

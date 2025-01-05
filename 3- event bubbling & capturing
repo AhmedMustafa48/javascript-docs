@@ -1,0 +1,3 @@
+event bubbling : upward propagation of the events is bubbling.
+
+event capturing : downward propagation for events is event capturing.

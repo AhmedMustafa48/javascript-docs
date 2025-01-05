@@ -1,0 +1,62 @@
+                                                    <!-- EVENT BUBBLING : -->
+upward propagation of the events is bubbling. 
+explanation : In event bubbling,
+the event starts from the target element (the deepest element that triggered the
+event) and propagates upwards through its ancestors in the DOM tree.
+<!-- CODE: -->
+<!-- <!DOCTYPE html>
+<html>
+  <body>
+    <div id="parent" style="padding: 20px; background-color: lightblue">
+      Parent
+      <button id="child">Child Button</button>
+    </div>
+
+    <script>
+      // Event listener for the parent
+      document.getElementById("parent").addEventListener("click", function () {
+        alert("Parent element clicked!");
+      });
+
+      // Event listener for the child
+      document.getElementById("child").addEventListener("click", function () {
+        alert("Child button clicked!");
+      });
+    </script>
+  </body>
+</html> -->
+<!-- ===================================================================== -->
+                                                    <!-- EVENT CAPTURING(EVENT TRICKING): -->
+downward propagation for events is event capturing.
+<!-- - explanation:  -->
+In event capturing, the event starts from the root of the DOM tree and
+propagates downwards to the target element.
+
+CODE :
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="parent" style="padding: 20px; background-color: red">
+      Parent
+      <button id="child">Child Button</button>
+    </div>
+
+    <script>
+      // Event listener for the parent in capturing phase
+      document.getElementById("parent").addEventListener(
+        "click",
+        function () {
+          alert("Parent element clicked in capturing phase!");
+        },
+        true // Use "true" to indicate capturing phase
+      );
+
+      // Event listener for the child
+      document.getElementById("child").addEventListener("click", function () {
+        alert("Child button clicked!");
+      });
+    </script>
+  </body>
+</html>
+

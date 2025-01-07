@@ -1,0 +1,2 @@
+The event loop is a key part of the JavaScript engine that helps manage the execution of code, especially asynchronous tasks like timers, promises, and events.
+

@@ -1,2 +1,5 @@
 The event loop is a key part of the JavaScript engine that helps manage the execution of code, especially asynchronous tasks like timers, promises, and events.
 
+Call Stack: The event loop checks if the call stack (where JavaScript code runs) is empty.
+Callback Queue: If the call stack is empty, it moves tasks from the callback queue (like setTimeout callbacks) to the call stack so they can be executed.
+In simple terms, the event loop ensures JavaScript handles tasks in the right order, making it possible to do multiple things without blocking the main thread.

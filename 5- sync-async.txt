@@ -1,0 +1,7 @@
+js is single threaded(sync).
+
+-> When your program runs, synchronous code works step by step, in order, from top to bottom. It doesn't move on to the next task until the current one is finished.
+
+-> But with asynchronous code, some tasks (like waiting for a response from a server or a timer) are sent to a "side stack" (you can think of it as a waiting area). While those tasks are waiting, the program keeps working on the rest of the code in the main stack. Once the main stack finishes all its tasks, the program checks the "side stack" and completes any remaining work that was waiting.
+
+

@@ -5,3 +5,11 @@ js is single threaded(sync).
 -> But with asynchronous code, some tasks (like waiting for a response from a server or a timer) are sent to a "side stack" (you can think of it as a waiting area). While those tasks are waiting, the program keeps working on the rest of the code in the main stack. Once the main stack finishes all its tasks, the program checks the "side stack" and completes any remaining work that was waiting.
 
 
+-------> CODE
+
+console.log("hello");
+console.log("world");
+setTimeout(function () {
+  console.log("hello world after 1s");
+}, 1000);
+console.log("hello world again");        

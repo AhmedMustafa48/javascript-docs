@@ -43,8 +43,18 @@ console.log(+undefined); /* OUTPUT: NaN */
 var undefindToNum = parseInt(undefined);
 console.log(undefindToNum); /* OUTPUT: NaN */
 
+// --> UNDEFINED TO STRING
+
+var undefinedToStr = undefined + "";
+console.log(
+  "undefined to string is basically  ",
+  typeof undefinedToStr
+); /* OUTPUT: string */
+
 // 4- NULL
 
-console.log(typeof null); /* OUTPUT: Object  */
+console.log(
+  typeof null
+); /* OUTPUT: Object (In JavaScript, null is considered an object. This is actually a bug from the early days of JavaScript's development. The developers made a mistake, but it was never fixed because many websites and applications were already using JavaScript. Fixing it could have broken a lot of websites. So, this "bug" is still there today.) */
 
 console.log(+null); /* OUTPUT: 0  */

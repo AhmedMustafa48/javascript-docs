@@ -1,0 +1,8 @@
+Following are the primitive data types
+1. string
+2. number
+3. boolean
+4. undefined
+5. null
+6. bigint
+7. symbol

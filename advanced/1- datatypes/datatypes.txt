@@ -1,0 +1,6 @@
+In JavaScript, a datatype means the kind of information you can store in a variable. For example, numbers, text (words or sentences), or true/false values are all different types of data. Datatypes help the computer understand what kind of information it’s working with.
+
+
+Two Types of datatypes in JavaScript
+1. Primitive
+2. Non Primitive

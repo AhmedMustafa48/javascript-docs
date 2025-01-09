@@ -6,3 +6,10 @@ Following are the primitive data types
 5. null
 6. bigint
 7. symbol
+
+======================================Type Conversion
+
+1. STRING TO NUMBER:
+
+
++'100'(put + or - outside the string)

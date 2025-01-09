@@ -25,3 +25,26 @@ console.log(strToNum5); /* OUTPUT: NaN  */
 
 var strToNum6 = typeof NaN;
 console.log(strToNum6); /* OUTPUT: number  */
+
+// 2. BOOLEAN To NUMBER
+
+var bool1 = +true;
+console.log(bool1); /* OUTPUT: 1 */
+
+var bool2 = +false;
+console.log(bool2); /* OUTPUT: 0 */
+
+// 3 - UNDEFINED
+
+console.log(typeof undefined); /* OUTPUT: undefined */
+
+console.log(+undefined); /* OUTPUT: NaN */
+
+var undefindToNum = parseInt(undefined);
+console.log(undefindToNum); /* OUTPUT: NaN */
+
+// 4- NULL
+
+console.log(typeof null); /* OUTPUT: Object  */
+
+console.log(+null); /* OUTPUT: 0  */

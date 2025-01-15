@@ -1,0 +1,10 @@
+A javascript variable is just a name of storage location.
+
+
+and we can give that name in three ways.
+
+- using LET keyword.
+- using CONST keyword.
+- using VAR keyword.
+
+

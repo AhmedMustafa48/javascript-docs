@@ -8,3 +8,50 @@ and we can give that name in three ways.
 - using VAR keyword.
 
 
+
+let username = "Ahmed"
+var userIntro = "My Name is Ahmed"
+const age= 25
+
+
+location assigned, named as username, userIntro & age in computer memory. 
+
+
+
+
+string
+-----------------------------------
+|                                 |
+|                                 |
+|                                 |
+|            'Ahmed'              |
+|                                 |
+|                                 |
+-----------------------------------
+            username
+
+
+
+string
+-----------------------------------
+|                                 |
+|                                 |
+|                                 |
+|      'My Name is Ahmed'         |
+|                                 |
+|                                 |
+-----------------------------------
+            userIntro
+
+
+number
+-----------------------------------
+|                                 |
+|                                 |
+|                                 |
+|              24                 |
+|                                 |
+|                                 |
+-----------------------------------
+            age
+

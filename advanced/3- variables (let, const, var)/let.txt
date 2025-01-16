@@ -2,6 +2,10 @@ let username = "Ahmed"
 
 location assigned, named as username in computer memory. 
 
+
+
+
+string
 -----------------------------------
 |                                 |
 |                                 |

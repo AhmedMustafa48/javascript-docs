@@ -24,15 +24,7 @@ console.log(age); /* OUTPUT :23  */
 age = 24;
 console.log(age); /*  OUTPUT: 24 */
 
-// username = "Mustafa";
-// console.log(username);
+// ======================================== HOISTED (TDZ)
 
-// function call() {
-//   let inCall = "calling you from inside function";
-//   return function () {
-//     console.log(inCall);
-//   };
-// }
-
-// let ahm = call();
-// ahm();
+console.log(z);
+let z = "hello you"; /* OUTPUT: cannot access 'z' before initiallization */

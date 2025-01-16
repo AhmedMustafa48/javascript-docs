@@ -17,6 +17,13 @@ console.log(username);
 // let username = "REDECLARE AHMED";
 // console.log(username);                   OUTPUT: Identifier 'username' has already been declared
 
+// ======================================== REASSIGNMENT
+let age = 23;
+console.log(age); /* OUTPUT :23  */
+
+age = 24;
+console.log(age); /*  OUTPUT: 24 */
+
 // username = "Mustafa";
 // console.log(username);
 

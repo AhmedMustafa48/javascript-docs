@@ -1,0 +1,11 @@
+- block scoped{}, this mean variable declared with const is only accessible within the block it is defined in.
+
+
+- CANNOT redeclare in the same scope.
+
+- CANNOT REASSIGN a value after it has been declared.
+
+- HOISTED but they are not initiallized, accessing them before declaration results in REFERENCE ERROR, this is due to TEMPORAL DEAD ZONE.
+
+- IMMUTABILITY:
+                Declaring a variable with const does not make the value immutable. For example, objects or arrays declared with const can still have their contents modified, though the reference itself cannot be reassigned.

@@ -2,9 +2,9 @@
 
 - If declared outside a function, it becomes a property of the global window object (in browsers).
 
-- CANNOT redeclare in the same scope.
+- You can redeclare the same var variable within the same scope without error.
 
-- You can REASSIGN a value after it has been declared.
+- var variables can be reassigned to new values.
 
 - var declarations are HOISTED to the top of their scope. However, only the declaration is hoisted, not the initialization. So, accessing the variable before initialization gives undefined.
 

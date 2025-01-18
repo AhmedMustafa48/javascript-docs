@@ -1,4 +1,4 @@
-- var is function-scoped. This means a var variable is accessible throughout the function in which it is declared, even before its declaration due to hoisting.
+- var is function-scoped. This means a var variable is accessible throughout the function in which it is declared, even before its  declaration due to hoisting.
 
 - If declared outside a function, it becomes a property of the global window object (in browsers).
 
@@ -6,5 +6,5 @@
 
 - You can REASSIGN a value after it has been declared.
 
-- HOISTED but they are not initiallized, accessing them before declaration results in REFERENCE ERROR, this is due to TEMPORAL DEAD ZONE.
+- var declarations are HOISTED to the top of their scope. However, only the declaration is hoisted, not the initialization. So, accessing the variable before initialization gives undefined.
 

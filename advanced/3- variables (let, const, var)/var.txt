@@ -1,0 +1,10 @@
+- function scoped{}, this mean variable declared with let is only accessible within the block it is defined in.
+
+- If declared outside a function, it becomes a property of the global window object (in browsers).
+
+- CANNOT redeclare in the same scope.
+
+- You can REASSIGN a value after it has been declared.
+
+- HOISTED but they are not initiallized, accessing them before declaration results in REFERENCE ERROR, this is due to TEMPORAL DEAD ZONE.
+

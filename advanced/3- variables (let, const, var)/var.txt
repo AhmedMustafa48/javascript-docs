@@ -1,4 +1,4 @@
-- function scoped{}, this mean variable declared with let is only accessible within the block it is defined in.
+- var is function-scoped. This means a var variable is accessible throughout the function in which it is declared, even before its declaration due to hoisting.
 
 - If declared outside a function, it becomes a property of the global window object (in browsers).
 

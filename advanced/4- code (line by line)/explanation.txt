@@ -3,12 +3,20 @@
 All variables will reserve space in memory with "undefined" value. 
  --> for example :
 
-1. firstName = undefined
-2. lastName = undefined
-3. age = undefined
-4. yearOfBirth = undefined
+1. firstName = undefined (type: undefined)
+2. lastName = undefined (type: undefined)
+3. age = undefined (type: undefined)
+4. yearOfBirth = undefined (type: undefined)
 
 
 It will ignore the console.log lines , and check only line having let , var and const declaration.
 
--> after memory creation phase , when all variable reserved space in memory with undefined value , then the next phase will be CODE EXECUTION.
+-> after memory creation phase , when all variable reserved space in memory with undefined value , then the next phase will be CODE EXECUTION PHASE.
+
+
+======================================= CODE EXECUTION PHASE
+
+1. firstName = "Ahmed" (type: string)
+2. lastName = "Mustafa"  (type: string)
+3. age = 15 (type: num)
+4. yearOfBirth = 2000 (type: num)

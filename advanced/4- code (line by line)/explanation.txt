@@ -1,6 +1,14 @@
 =======================================  VISUALIZE MEMORY CREATION PHASE 
 
 All variables will reserve space in memory with "undefined" value. 
+ --> for example :
+
+1. firstName = undefined
+2. lastName = undefined
+3. age = undefined
+4. yearOfBirth = undefined
+
+
 It will ignore the console.log lines , and check only line having let , var and const declaration.
 
 -> after memory creation phase , when all variable reserved space in memory with undefined value , then the next phase will be CODE EXECUTION.

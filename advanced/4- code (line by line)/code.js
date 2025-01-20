@@ -1,4 +1,3 @@
-debugger;
 console.log(firstName);
 var firstName = "Ahmed";
 let lastName = "Mustafa";

@@ -1,0 +1,8 @@
+===================== Falsy Values
+- null
+- undefined
+- ''(empty string)
+- 0
+- undefined
+
+Note: Remaining values are truthy.

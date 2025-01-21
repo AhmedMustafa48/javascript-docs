@@ -5,4 +5,8 @@
 - 0
 - undefined
 
+
+
 Note: Remaining values are truthy.
+
+Note : !0 (By using not operator output will be TRUE)

@@ -5,3 +5,24 @@
 - Division Operator (/).
 - Remainder Operator (%).
 - Exponential Operator (**).
+
+
+============================= Math Object
+
+Following are he PROPERTIES on Math Object
+- Math.PI
+- Math.SQRT2
+- Math.E
+
+Following are he METHODS on Math Object
+- Math.sqrt(x)
+- Math.pow(x,y)
+- Math.floor(x)
+- Math.ceil(x)
+- Math.round(x)
+- Math.random(0 * 10)
+
+
+Note: if you want to explore methods and properties of Math object, then go to console and type Math -> (Enter).
+
+

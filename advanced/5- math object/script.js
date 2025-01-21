@@ -13,4 +13,12 @@ console.log(Math.round(3)) /* 3 */
 console.log(Math.random() * 5 ) /* random decimal number range b/w 0-5 */
 
 
+console.log(8/0) /* Infinity */
+console.log(-8/0) /* -Infinity */
+console.log(0/0) /* NaN */
+
+
+
+
+
 

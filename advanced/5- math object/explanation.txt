@@ -22,6 +22,10 @@ Following are he METHODS on Math Object
 - Math.round(x)
 - Math.random(0 * 10)
 
+- 8/0 = Infinity
+- -8/0 = -Infinity
+
+
 
 Note: if you want to explore methods and properties of Math object, then go to console and type Math -> (Enter).
 

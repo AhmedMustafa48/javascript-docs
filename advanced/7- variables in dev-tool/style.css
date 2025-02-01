@@ -30,6 +30,9 @@ body {
   justify-content: center;
   border: solid 1px white; 
 }
+.about-fluid {
+  background-color: crimson;
+}
 
 
 

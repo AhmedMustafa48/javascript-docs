@@ -20,6 +20,16 @@ body {
   width: 100%;
   padding: 0 40px;
 }
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+  padding: 100px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px white; 
+}
 
 
 

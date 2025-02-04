@@ -4,3 +4,5 @@
 2. age = 24  (type: number)
 3. isGraduate = true (type: boolean)
 
+
+incomplete

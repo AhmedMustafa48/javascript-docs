@@ -1,0 +1,3 @@
+SHALLOW COPY:
+
+A shallow copy creates a new object, but only copies references for nested objects or arrays. This means modifying nested properties in one object will affect the other, since both objects share the same reference.

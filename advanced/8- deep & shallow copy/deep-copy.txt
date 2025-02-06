@@ -1,1 +1,12 @@
 A deep copy creates a completely independent clone of the original object, including nested objects and arrays. Changing the copy won't affect the original.
+
+
+const obj1 = { name: "Alice", details: { age: 25 } };
+
+// Deep copy using JSON methods
+const obj2 = JSON.parse(JSON.stringify(obj1));
+
+obj2.details.age = 30; // Doesn't affect obj1
+
+console.log(obj1.details.age); // 25 ✅ (original unchanged)
+console.log(obj2.details.age); // 3

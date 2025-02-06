@@ -1,3 +1,16 @@
 SHALLOW COPY:
 
 A shallow copy creates a new object, but only copies references for nested objects or arrays. This means modifying nested properties in one object will affect the other, since both objects share the same reference.
+
+const obj1 = { name: "Alice", details: { age: 25 } };
+
+// Shallow copy using spread operator
+const obj2 = { ...obj1 };
+
+obj2.details.age = 30; // Modifies obj1 as well
+
+console.log(obj1.details.age); // 30 😲 (unexpected change)
+console.log(obj2.details.age); // 30
+
+
+

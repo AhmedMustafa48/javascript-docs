@@ -1,0 +1,1 @@
+A deep copy creates a completely independent clone of the original object, including nested objects and arrays. Changing the copy won't affect the original.

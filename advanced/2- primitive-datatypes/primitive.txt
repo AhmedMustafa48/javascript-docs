@@ -6,6 +6,36 @@ Following are the primitive data types
 5. null
 6. bigint
 7. symbol
+=============================================
+
+Immutable: You cannot change the actual value, only reassign the variable
+
+let str = "hello";
+str[0] = "H";  // This won't work
+console.log(str); // Still "hello"
+
+// To change, you must reassign
+str = "Hello";
+
+=============================================
+Stored by Value: Each variable gets its own copy of the data
+
+let a = 10;
+let b = a;  // b gets a copy of a's value
+a = 20;
+console.log(b); // Still 10
+
+=========================================
+
+Passed by Value: When passed to functions, a copy is sent
+
+function changeValue(x) {
+    x = 100;
+}
+
+let num = 50;
+changeValue(num);
+console.log(num); // Still 50
 
 ======================================Type Conversion
 

@@ -1,0 +1,45 @@
+Non-Primitive Variables (Reference Types)
+Non-primitive types are more complex data structures that store references to memory locations. The main non-primitive types are:
+
+Objects - Key-value pairs
+Arrays - Ordered lists
+Functions - Executable code blocks
+Dates - Date/time objects
+RegExp - Regular expressions
+
+===============================
+
+// Examples of non-primitive types
+let person = { name: "Alice", age: 30 };    // Object
+let numbers = [1, 2, 3, 4, 5];             // Array
+let greet = function() { return "Hi!"; };   // Function
+let today = new Date();                     // Date
+let pattern = /[a-z]+/g;                   // RegExp
+
+=========================================
+Mutable: You can change the contents without reassigning
+
+let obj = { name: "Bob" };
+obj.name = "Charlie";  // This works
+obj.age = 25;         // Adding new properties works too
+console.log(obj); // { name: "Charlie", age: 25 }
+
+=========================================
+
+Stored by Reference: Variables store memory addresses, not the actual data
+
+let arr1 = [1, 2, 3];
+let arr2 = arr1;  // arr2 points to the same array as arr1
+arr1.push(4);
+console.log(arr2); // [1, 2, 3, 4] - both arrays changed!
+
+=========================================
+Passed by Reference: Functions receive references to the original object
+
+function addProperty(obj) {
+    obj.newProp = "added";
+}
+
+let myObj = { name: "Test" };
+addProperty(myObj);
+console.log(myObj); // { name: "Test", newProp: "added" }

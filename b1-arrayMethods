@@ -1,0 +1,56 @@
+foreach , map , filters, find , index of
+
+var arr = [1,2,3,4];
+====================================================================================== FOR EACH
+
+
+-->> ForEach Not return new array
+
+arr.forEach(function(val){
+    console.log(val + " hello")
+})
+
+-->> Output : 1hello , 2hello , 3hello , 4hello, 5hello
+
+======================================================================================== MAP
+-->> Map return new array
+
+var newArr=arr.map(function(val){
+    return 13;
+})
+console.log(newArr)
+
+-->> Output: (4) [13, 13, 13, 13]
+
+var newArr=arr.map(function(val){
+    return val * 3;
+})
+console.log(newArr)
+
+-->> Output: (4) [3, 6, 9, 12]
+======================================================================================== FILTER
+
+-->> Filter  return new array
+
+arr.filter(function(val){
+    if(val >3)  {return true;}
+})
+
+-->> Output:  [4]
+======================================================================================== FIND
+->> Find Not return new array
+
+arr.find(function(val){
+    if(val ===2)  {return true;}
+})
+
+-->> Output:  2
+======================================================================================== INDEX OF
+
+->> indexOf Not return new array
+
+arr.indexOf(2)
+
+-->> Output:  1 (if not available in array then it return -1)
+
+

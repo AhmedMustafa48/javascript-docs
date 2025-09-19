@@ -9,7 +9,7 @@ var arr = [1,2,3,4];
 arr.forEach(function(val){
     console.log(val + " hello")
 })
-
+ 
 -->> Output : 1hello , 2hello , 3hello , 4hello, 5hello
 
 ======================================================================================== MAP
